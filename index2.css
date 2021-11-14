@@ -1,0 +1,35 @@
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:visited {
+    background-color: #9d08c5;
+    border-color: #9d08c5;
+}
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #5e13b9;
+    border-color: #5e13b9;
+}
+
+.btn-primary:active:focus,
+.btn-primary:focus {
+   box-shadow: 0 0 0 0.25rem rgba(199, 49, 253, 0.5);
+}
+.text-primary{
+    color: #6906df !important;
+}
+.bg-primary{
+    background-color: #f1efef !important;
+}
+.border-primary{
+    border-color: #6906df !important;
+}
+.alert-primary{
+    color: #5700c5;
+    background-color: #decfff;
+    border-color: #d5adff;
+
+}
+.card:hover{
+    transform: scale(1.07);
+    transition: all 0.8s ease-in-out;
+}

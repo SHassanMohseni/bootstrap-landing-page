@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developers!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+</head>
+
+<body >
+
+    <!-- navbar section -->
+    <div class="bg-white shadow sticky-top mb-4 py-2" style="--bs-bg-opacity: 0.95;">
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-4" href="#">Web developers!</a>
+                <a href="#" class="navbar-toggler" type="a href=" #"" data-bs-toggle="collapse"
+                    data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </a href="#">
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active me-2" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-2" href="#feature">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-2" href="#blog">blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-2" href="#contact">About</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-lg-end" style="width: 148px;">
+                        <button type="button" class="btn btn-primary " data-bs-toggle="modal"
+                            data-bs-target="#getStartedModal">Get Started
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end navbar section -->
+
+    <div class="rounded-circle d-flex justify-content-center align-items-center position-fixed opacity-75" style="width: 40px; height: 40px; right: 10px; bottom:10px; background-color: orange;">
+        <a href="#"> <i class="bi bi-arrow-up text-white " style="font-size: 30px;"></i></a>
+    </div>
+
+    <!-- For Modal -->
+    <div class="modal fade" id="getStartedModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get Started now!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-2">
+                            <label for="exampleFormControlInput2" class="form-label">Enter your email for
+                                NewLetter</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2"
+                                placeholder="name@example.com">
+                        </div>
+
+                        <div>
+                            <button class="btn btn-primary mb-2 px-4">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Modal -->
+    <!-- start header section -->
+
+    <div class="container">
+        <div class="row align-items-center ">
+            <div class="col-md-6 py-4">
+                <h2 class="display-4 mb-4">Build <span class="text-warning">reactive </span>website easily!</h2>
+                <p class="lead text-muted mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit,
+                    neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, neque.</p>
+                <div class="d-flex justify-content-center justify-content-md-start">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#getStartedModal">Get Started
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6 py-4 d-flex justify-content-center">
+                <img src="imgForTest/header.png" alt="" class="img-fluid" style="width: 85%;">
+            </div>
+        </div>
+    </div>
+    <!-- end header section -->
+
+    <!-- start feature section -->
+    <div class="py-4 bg-primary">
+        <section class="container ">
+            <h2 id="feature" class="display-5 text-center ">Features</h2>
+            <p class="text-center lead mb-5 bg-primary text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit.
+                Eum, error! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repellat exercitationem
+                tempore consectetur aspernatur eligendi iste aliquam in voluptatibu.</p>
+            <div class="row g-3 pb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4 text-center shadow">
+                        <i class="bi bi-cpu display-4 text-primary"></i>
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Special title treatment</h5>
+                            <p class="card-text lead text-muted">With supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4 text-center shadow">
+                        <i class="bi bi-reception-4 display-4 text-primary"></i>
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Growth</h5>
+                            <p class="card-text lead text-muted">With supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4 text-center shadow">
+                        <i class="bi bi-hdd-network display-4 text-primary"></i>
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Network</h5>
+                            <p class="card-text lead text-muted">With supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4 text-center shadow">
+                        <i class="bi bi-server display-4 text-primary"></i>
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Server</h5>
+                            <p class="card-text lead text-muted">With supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4 text-center shadow">
+                        <i class="bi bi-cloud-arrow-down display-4 text-primary"></i>
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Cloud</h5>
+                            <p class="card-text lead text-muted">With supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4 text-center shadow">
+                        <i class="bi bi-download display-4 text-primary"></i>
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Download</h5>
+                            <p class="card-text lead text-muted">With supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- end feature section -->
+    <!-- start react section -->
+    <div class="container mb-5">
+        <div class="row align-items-center ">
+            <div class="col-md-6 py-4">
+                <h2 class="display-4 mb-4">Be <span class="text-success">Fast </span>and <span
+                        class="text-success">reactive</span></h2>
+                <p class="lead text-muted mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit,
+                    neque Lorem ipsum, dolor sit amet.</p>
+                <div class="d-flex justify-content-center justify-content-md-start">
+                    <a href="#" class="btn btn-primary "><i class="bi bi-chevron-right"></i> Get Started</a>
+                </div>
+            </div>
+            <div class="col-md-6 py-4">
+                <img src="imgForTest/vue.svg " alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- end react section -->
+
+    <!-- start vue-js section -->
+    <div class="bg-dark">
+        <div class="container">
+            <div class="row py-3 align-items-center ">
+                <div class="col-md-6 py-4">
+                    <img src="imgForTest/react.svg " alt="" class="img-fluid" style="width: 95%;">
+                </div>
+                <div class="col-md-6 py-4">
+                    <h2 class="display-4 mb-4 text-white">Suitable for <span class="text-warning">Beg project </span>
+                    </h2>
+                    <p class="lead text-white mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit,
+                        neque Lorem ipsum, dolor sit amet.</p>
+                    <div class="d-flex justify-content-center justify-content-md-start">
+                        <a href="#" class="btn btn-primary "><i class="bi bi-chevron-right"></i>Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end vue-js section -->
+
+    <!-- start post blogs section -->
+    <div class="py-4 bg-primary">
+        <div class="container">
+            <h2 id="blog" class="display-5 my-4 text-center">Recent posts form our blog</h2>
+            <p class="text-muted mb-4 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit,
+                neque Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Suscipit,
+                neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, neque.</p>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-3 shadow">
+                        <img src="imgForTest/pic1.jgp.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                                nisi
+                                pariatur placeat deserunt omnis laboriosam.</h5>
+                        </div>
+                        <div class="ps-3">
+                            <a href="#" class="text-info" style="text-decoration: none;"><i
+                                    class="bi bi-arrow-right"></i> Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-3 shadow">
+                        <img src="imgForTest/pic3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                                nisi
+                                pariatur placeat deserunt omnis laboriosam.</h5>
+                        </div>
+                        <div class="ps-3">
+                            <a href="#" class="text-info" style="text-decoration: none;"><i
+                                    class="bi bi-arrow-right"></i> Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-3 shadow">
+                        <img src="imgForTest/pic2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                                nisi
+                                pariatur placeat deserunt omnis laboriosam.</h5>
+                        </div>
+                        <div class="ps-3">
+                            <a href="#" class="text-info" style="text-decoration: none;"><i
+                                    class="bi bi-arrow-right"></i> Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end post blogs section -->
+
+    <!-- start our team section -->
+    <div class="py-4 ">
+        <div class="container">
+            <h2 class="display-5 my-4 text-center">Our Team</h2>
+            <p class="text-muted mb-4 text-center pb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Suscipit,
+                neque Lorem ipsum, dolor sit amet consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Suscipit,
+                neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, neque.</p>
+            <div class="row ">
+                <div class="col-lg-3 col-md-3 text-center">
+                    <img class="rounded-circle border border-2 p-1 border-white" src="imgForTest/image1.jpg"></img>
+                    <p class="fs-3">Liza john</p>
+                    <p class="fs-20">Developer</p>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-telegram text-muted "></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-twitter text-muted "></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-facebook text-muted"></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-instagram text-muted "></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-3 text-center">
+                    <img class="rounded-circle border border-2 p-1 border-white" src="imgForTest/image3.jpg"></img>
+                    <p class="fs-3">John Smith</p>
+                    <p class="fs-20">Designer</p>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-telegram text-muted "></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-twitter text-muted "></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-facebook text-muted"></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-instagram text-muted "></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-3 text-center">
+                    <img class="rounded-circle border border-2 p-1 border-white" src="imgForTest/image2.jpg"></img>
+                    <p class="fs-3">Sara tankrizi</p>
+                    <p class="fs-20">Senior Developer</p>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-telegram text-muted "></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-twitter text-muted "></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-facebook text-muted"></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-instagram text-muted "></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-3 text-center">
+                    <img class="rounded-circle border border-2 p-1 border-white" src="imgForTest/image4.jpg"></img>
+                    <p class="fs-3">David</p>
+                    <p class="fs-20">Founder</p>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-telegram text-muted "></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-twitter text-muted "></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-facebook text-muted"></i></a>
+                        </li>
+                        <li class="mx-1">
+                            <a href="#"><i class="bi bi-instagram text-muted "></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our team section -->
+
+    <!-- start Frequently questions -->
+    <div class="py-5 bg-primary ">
+        <div class="container">
+            <h2 class="display-5 text-center ">Frequently asked questions</h2>
+            <p class="text-center lead mb-5  text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit.
+                Eum, error! Lorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet adipisicing elit.
+                Laboriosam repellat exercitationem
+                tempore consectetur aspernatur eligendi iste aliquam in voluptatibu.</p>
+
+            <div class="row pb-5 px-2">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header " id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                1.What's your job?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2.What's your mession?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                3.What's your mession?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapsefour">
+                                4.Why should I trust you?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Frequently questions -->
+
+    <!-- start contact section -->
+    <section class="py-5 ">
+        <div class="container">
+            <h2 id="contact" class="display-5 text-center">contact</h2>
+            <p class="text-center lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                dignissimos non nam perspiciatis quia? Delectus nisi incidunt quia cum possimus Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Repellat, inventore.
+            </p>
+            <div class="row g-2">
+                <div class="col-md-6 ">
+                    <div class="row g-2">
+                        <div class="col-md-6">
+                            <div class="bg-primary rounded-3 px-3 py-1 mb-0">
+                                <i class="bi bi-geo-alt display-4 text-primary"></i>
+                                <h2>Address</h2>
+                                <address class="mb-0">2<sup>nd</sup> street, kart-e-4</address>
+                                <address>kabul, Afghanistan</address>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-primary rounded-3 px-3 py-1 mb-0">
+                                <i class="bi bi-telephone display-4 text-primary"></i>
+                                <h2>Call Us</h2>
+                                <p class="mb-0">+93(0)747516358</p>
+                                <p>+93(0)795065045</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="bg-primary rounded-3 px-3 py-1">
+                                <i class="bi bi-envelope display-4 text-primary"></i>
+                                <h2>Email Us</h2>
+                                <p class="mb-0">info@contact.com</p>
+                                <p>example@contact.com</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="bg-primary rounded-3 px-3 py-1">
+                                <i class="bi bi-clock-history display-4 text-primary"></i>
+                                <h2>Open Hours</h2>
+                                <p class="mb-0">Monday - Friday</p>
+                                <p>07:00 AM - 05:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form class="bg-primary px-3">
+                        <div class="mb-2">
+                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Ex: John Smith">
+                        </div>
+                        <div class="mb-2">
+                            <label for="exampleFormControlInput2" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-2">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary mb-2 px-4">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact section-->
+
+    <!-- footer section -->
+    <div class="pt-5 bg-dark">
+        <footer class="container">
+            <div class="row text-white">
+                <div class="col-md-3">
+                    <h2 class="mb-4">Web Developers!</h2>
+                    <p class="text-white text-opacity-75">Lorem ipsum dolor sit provident natus explicabo hic rerum eius
+                        laborum quod placeat. Omnis saepe amet ab pariatur.</p>
+                </div>
+                <div class="col-md-3 ps-4">
+                    <h3 class="mb-4 border-start border-3 border-primary ps-2">Pages</h3>
+                    <ul class="list-unstyled text-decoration-none">
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> Vue-js</a></li>
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> React-js</a></li>
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> Our team</a></li>
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 ps-4">
+                    <h3 class="mb-4 border-start border-3 border-primary ps-2">More</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> Vue-js</a></li>
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> React-js</a></li>
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> Our team</a></li>
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 ps-4">
+                    <h3 class="mb-4 border-start border-3 border-primary ps-2">Posts</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> Vue-js</a></li>
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> React-js</a></li>
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> Our team</a></li>
+                        <li class="mb-1 text-white text-opacity-75"><a
+                                class="text-decoration-none text-white text-opacity-75" href="#"> Contact</a></li>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="text-center">Designed and Developed: <a class="text-decoration-none text-white" href="#">S
+                        Hassan Mohseni</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- end footer section -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
